@@ -7,8 +7,11 @@ int main(void)
 	a = 15;
 	b = 20;
 	a++;
+	b++;
+	int z = 108+1;
 
-	printf("a+b = %d\n", a + b);
+
+	printf("a+b+z = %d\n", a + b + z);
 	print(a);
 
 	return 0;
