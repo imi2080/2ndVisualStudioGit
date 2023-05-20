@@ -8,7 +8,7 @@ int main(void)
 	b = 20;
 	a++;
 	b++;
-	int z = 108+1;
+	int z = 190000;
 
 
 	printf("a+b+z = %d\n", a + b + z);
