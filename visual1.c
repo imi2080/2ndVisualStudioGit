@@ -2,6 +2,6 @@
 
 void print(char str[], int a)
 {
-	printf("%s = %d\n", str, a);
+	printf("Edit %s = %d\n", str, a);
 	return;
 }
