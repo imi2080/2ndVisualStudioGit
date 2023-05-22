@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void print(int a)
+void print(char str[], int a)
 {
-	printf("a = %d\n", a);
+	printf("%s = %d\n", str, a);
 	return;
 }

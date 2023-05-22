@@ -6,13 +6,11 @@ int main(void)
 
 	a = 15;
 	b = 20;
-	a++;
-	b++;
 	int z = 190000;
 
 
-	printf("a+b+z = %d\n", a + b + z);
-	print(a);
+	printf("a+b+z = %d\n", a++ + b++ + z);
+	print("hi", a);
 
 	return 0;
 }
